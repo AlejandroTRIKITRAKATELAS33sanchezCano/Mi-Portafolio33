@@ -565,3 +565,11 @@ footer{
 .contenedor a {
     color: var(--quaternary-color);
 }
+
+/*Responsive*/
+
+@media(max-width: 768px){
+    .banner_img{
+        display:none
+    }
+}
