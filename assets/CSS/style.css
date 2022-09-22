@@ -297,6 +297,142 @@ h4{
     }
 }
 
+/*Servicios*/
+
+.Mis-Servicios{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 40px 0 130px;
+
+    background-color: var(--secundary-color);
+}
+
+.Contenedor-Servicios{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.Servicio{
+    width: 300px;
+    margin: 10px;
+    transition: all 300ms;
+}
+
+.Servicio:hover{
+    width: 350px;
+}
+
+
+.Servicio img{
+    width: 250px;
+    position: relative;
+    top: 40px;
+    z-index: 1;
+    display: block;
+    margin: auto;
+    transition: all 400ms;
+    filter: drop-shadow(5px 5px 40px rgba(0,0,0,0.5));
+}
+
+.Servicio:hover .Servicio img{
+    top: 0;
+    filter: none;
+}
+
+.cover{
+    width: 100%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.img_back{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: -80px;
+    left: 0;
+    background-size: cover;
+    border-radius: 20px;
+    transition: all 300ms;
+}
+
+.Servicio:hover .img_back{
+    bottom: -40px;
+}
+
+.Servicio:nth-of-type(1) .img_back{
+    background-image: url(../IMG/blue-forest-minimal-4k-kz-2560x1440-2433359317.jpg);
+}
+.Servicio:nth-of-type(2) .img_back{
+    background-image: url(../IMG/blue-forest-minimal-4k-kz-2560x1440-2433359317.jpg);
+}
+.Servicio:nth-of-type(3) .img_back{
+    background-image: url(../IMG/blue-forest-minimal-4k-kz-2560x1440-2433359317.jpg);
+}
+.Servicio:nth-of-type(4) .img_back{
+    background-image: url(../IMG/blue-forest-minimal-4k-kz-2560x1440-2433359317.jpg);
+}
+.Servicio:nth-of-type(5) .img_back{
+    background-image: url(../IMG/blue-forest-minimal-4k-kz-2560x1440-2433359317.jpg);
+}
+.Servicio:nth-of-type(6) .img_back{
+    background-image: url(../IMG/blue-forest-minimal-4k-kz-2560x1440-2433359317.jpg);
+}
+
+.descripcion{
+    background-color: var(--tertiary-color);
+    margin-top: -10px;
+    padding: 20px;
+    border-radius: 0px 0px 20px 20px;
+    transition: all 300ms;
+}
+
+.descripcion h2{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.descripcion p{
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.Servicio:hover .descripcion{
+    padding: 40px;
+}
+
+.saber-mas{
+    display:inline-block;
+    text-decoration:none;
+    color: var(--quaternary-color);
+    padding: 10px 30px;
+    border: 3px solid var(--quaternary-color);
+    border-radius: 30px;
+    margin-top: 15px;
+    transition: all 0.4s;
+}
+.saber-mas:hover{
+    background:rgba(221, 120, 190, 0.6);
+    color: var(--quaternary-color);
+}
+
+.Titulos-varios{
+    margin-top: 10%;
+    color: var(--main-color);
+    font-size: 9vw;
+    line-height: 9.4vw;
+}
+
 /*===================================================CECyT9*===================================================================================================/
 */
 
